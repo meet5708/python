@@ -1,0 +1,6 @@
+numbers = tuple(input("Enter numbers : "))
+print("\nTuple elements are:", numbers)
+print("Minimum value:", min(numbers))
+print("Maximum value:", max(numbers))
+print("Sum of elements:", sum(numbers))
+print("Average of elements:", sum(numbers) / len(numbers))
